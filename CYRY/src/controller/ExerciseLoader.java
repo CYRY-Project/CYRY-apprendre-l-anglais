@@ -11,10 +11,21 @@ import view.SentenceConstruction;
 import view.Situation;
 import view.Translation;
 
+/**
+ * Choisir la vue d'un exercice en fonction de son type.
+ *
+ * @author Yoann Jeauneau
+ */
 public class ExerciseLoader
 {
 	/************** Méthodes **************/
 
+	/**
+	 * Une fois les panneaux vides, ajoute la vue souhaitée au panneau en fonction du type de l'exercice.
+	 * 
+	 * @param user L'instance de User
+	 * @param exercise L'instance de Exercise
+	 */
 	public static void typeSelect(User user, Exercise exercise)
 	{
 		switch (exercise.getExerciseType())

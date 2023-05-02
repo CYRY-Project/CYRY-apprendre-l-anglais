@@ -62,13 +62,13 @@ public class LevelCompleted extends JPanel
 		ImageIcon avatarStr = new ImageIcon(user.getUserAvatar());
 		JButton avatar = new JButton(avatarStr);
 		JLabel name = new JLabel(user.getUserName());
-		JLabel level = new JLabel("Level : " + String.valueOf(user.getUserLevel()));
-		JLabel points = new JLabel("Score : " + String.valueOf(user.getUserPoints()));
+		JLabel level = new JLabel("Niveau : " + String.valueOf(user.getUserLevel()));
+		JLabel points = new JLabel("Points : " + String.valueOf(user.getUserPoints()));
 		JButton menu = new JButton("Menu");
 
 		ImageIcon imageLvl = new ImageIcon(imageStr);
 		JLabel levelCompleted = new JLabel(imageLvl);
-		JLabel lvlCompleted = new JLabel("Vous avez terminé tous les exercises de ce niveau de difficulté. Well Done !", SwingConstants.CENTER);
+		JLabel lvlCompleted = new JLabel("Vous avez terminé tout les exercises de ce niveau de difficulté. Well Done !", SwingConstants.CENTER);
 		JLabel comments = new JLabel("Si ce n'est pas déjà fait, lancez vous sur les niveaux de difficulté supérieurs.", SwingConstants.CENTER);
 		commentsTime = new JLabel("Sinon, vous allez être redirigé automatiquement dans " + String.valueOf(counter) + " secondes au menu principal.", SwingConstants.CENTER);
 

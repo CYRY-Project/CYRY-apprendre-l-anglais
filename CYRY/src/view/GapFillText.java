@@ -55,8 +55,8 @@ public class GapFillText extends JPanel
 		ImageIcon avatarStr = new ImageIcon(user.getUserAvatar());
 		JButton avatar = new JButton(avatarStr);
 		JLabel name = new JLabel(user.getUserName());
-		JLabel level = new JLabel("Level : " + String.valueOf(user.getUserLevel()));
-		JLabel points = new JLabel("Score : " + String.valueOf(user.getUserPoints()));
+		JLabel level = new JLabel("Niveau : " + String.valueOf(user.getUserLevel()));
+		JLabel points = new JLabel("Points : " + String.valueOf(user.getUserPoints()));
 		JButton menu = new JButton("Menu");
 
 		// partie exercice

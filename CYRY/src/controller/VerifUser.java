@@ -1,16 +1,13 @@
 package controller;
 
 import java.awt.HeadlessException;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 import java.util.Random;
 
 import javax.swing.JOptionPane;
 
 import model.User;
-
 import view.App;
 import view.Connection;
 import view.Inscription;

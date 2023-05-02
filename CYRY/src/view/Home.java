@@ -28,7 +28,7 @@ public class Home extends JPanel
 
 	private			String	comments = "Le but de cette application est de vous aider à améliorer votre anglais.\n\n"
 						+ "Vous trouverez sur Cyry 3 niveaux de difficulté (débutant, intermédiaire et avancé)\n"
-						+ "que vous pourrez choisir en cliquant sur le bouton 'menu' en haut à droite.\n\n"
+						+ "que vous pourrez choisir en cliquant sur le bouton 'Menu' en haut à droite.\n\n"
 						+ "Chaque niveau se compose de 10 exercices, chaque exercice réussi vous permettra\n"
 						+ "de gagner des points et des niveaux pour débloquer la difficulté suivante.\n\n"
 						+ "En cliquant sur votre avatar en haut à gauche, vous pourrez consulter votre compte pour\n"
@@ -46,7 +46,7 @@ public class Home extends JPanel
 		ImageIcon avatarStr = new ImageIcon(user.getUserAvatar());
 		JButton avatar = new JButton(avatarStr);
 		JLabel name = new JLabel(user.getUserName());
-		JLabel level = new JLabel("Level : " + String.valueOf(user.getUserLevel()));
+		JLabel level = new JLabel("Niveau : " + String.valueOf(user.getUserLevel()));
 		JLabel points = new JLabel("Points : " + String.valueOf(user.getUserPoints()));
 		JButton menu = new JButton("Menu");
 
