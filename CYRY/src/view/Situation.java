@@ -48,8 +48,8 @@ public class Situation extends JPanel
 		ImageIcon avatarStr = new ImageIcon(user.getUserAvatar());
 		JButton avatar = new JButton(avatarStr);
 		JLabel name = new JLabel(user.getUserName());
-		JLabel level = new JLabel("Level : " + String.valueOf(user.getUserLevel()));
-		JLabel points = new JLabel("Score : " + String.valueOf(user.getUserPoints()));
+		JLabel level = new JLabel("Niveau : " + String.valueOf(user.getUserLevel()));
+		JLabel points = new JLabel("Points : " + String.valueOf(user.getUserPoints()));
 		JButton menu = new JButton("Menu");
 
 		ImageIcon image1 = new ImageIcon("src/image/exercise/" + exercise.getExerciseAnswers().get(VerifExercise.randomAnswer(this.answerPicked, exercise)).get(1));
@@ -99,6 +99,14 @@ public class Situation extends JPanel
 		points.setFont(new Font("Dialog",Font.BOLD,14));
 
 		labelQuestion.setFont(new Font("Dialog", Font.BOLD, 25));
+		
+		// Modification des couleurs des boutons
+		// Couleur de fond
+		// Couleur de police
+		// Couleur de bordure	
+
+		level.setForeground(new Color(183, 44, 51));
+		points.setForeground(new Color(183, 44, 51));
 
 		//Gestion des bordures
 

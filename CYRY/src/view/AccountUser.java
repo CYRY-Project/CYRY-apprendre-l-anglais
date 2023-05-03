@@ -53,7 +53,7 @@ public class AccountUser extends JPanel
 		JLabel easyNumber = new JLabel(VerifAccountUser.returnDifficultyExerciseDone(user,1) + "/" + VerifAccountUser.returnDifficultyExercise(1));
 		JLabel medium = new JLabel("Intermédiaire");
 		JLabel mediumNumber = new JLabel(VerifAccountUser.returnDifficultyExerciseDone(user,2) +"/" + VerifAccountUser.returnDifficultyExercise(2));
-		JLabel hard = new JLabel("Difficile");
+		JLabel hard = new JLabel("Avancé");
 		JLabel hardNumber = new JLabel(VerifAccountUser.returnDifficultyExerciseDone(user,3) +"/" + VerifAccountUser.returnDifficultyExercise(3));
 		JLabel mcq = new JLabel("QCM");
 		JLabel mcqNumber = new JLabel(VerifAccountUser.returnNumberExerciseDone(user, 1) +"/" + VerifAccountUser.returnNumberExercise(1));

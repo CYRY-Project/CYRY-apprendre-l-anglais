@@ -11,8 +11,8 @@ public class App extends JFrame
 {
 	/************** Attributs **************/	
 
-	private	static	Toolkit			outil = Toolkit.getDefaultToolkit();
-	private	static	Dimension		screenSize = outil.getScreenSize();
+	private	static	Toolkit			tool = Toolkit.getDefaultToolkit();
+	private	static	Dimension		screenSize = tool.getScreenSize();
 	private	static	int				screenWidth = screenSize.width;
 	private	static	int				screenHeight = screenSize.height;
 	private	static	int				windowWidth = (int) (screenWidth * 0.95);
